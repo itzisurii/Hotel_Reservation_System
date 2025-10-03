@@ -27,9 +27,9 @@
             <Font name="Arial" size="12.0" />
          </font>
       </Text>
-      <TextField layoutX="337.0" layoutY="159.0" prefHeight="25.0" prefWidth="212.0" />
-      <PasswordField layoutX="337.0" layoutY="221.0" prefHeight="25.0" prefWidth="212.0" />
-      <Button layoutX="337.0" layoutY="279.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="212.0" style="-fx-background-color: #705836;" text="Login" textFill="#fffefd">
+      <TextField fx:id="txtUsernameEmail" layoutX="337.0" layoutY="159.0" prefHeight="25.0" prefWidth="212.0" />
+      <PasswordField fx:id="txtPassword" layoutX="337.0" layoutY="221.0" prefHeight="25.0" prefWidth="212.0" />
+      <Button layoutX="337.0" layoutY="279.0" mnemonicParsing="false" onAction="#btnLoginOnAction" prefHeight="25.0" prefWidth="212.0" style="-fx-background-color: #705836;" text="Login" textFill="#fffefd">
          <font>
             <Font name="Arial Black" size="12.0" />
          </font>

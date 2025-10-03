@@ -32,17 +32,17 @@ public class LoginFormController {
                 } catch (IOException e) {
                     throw new RuntimeException(e);
                 }
-                txtUsernameEmail.setText("");
-                txtPassword.setText("");
+                txtUsernameEmail.clear();
+                txtPassword.clear();
                 stage.show();
             }else{
-                txtUsernameEmail.setText("");
-                txtPassword.setText("");
+                txtUsernameEmail.clear();
+                txtPassword.clear();
                 System.out.println("Invalid Password");
             }
         }else{
-            txtUsernameEmail.setText("");
-            txtPassword.setText("");
+            txtUsernameEmail.clear();
+            txtPassword.clear();
             System.out.println("Invalid Username");
         }
     }

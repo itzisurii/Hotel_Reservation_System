@@ -120,6 +120,6 @@ public class CustomerInfoFormController implements Initializable {
                 txtPhoneNumber.setText(String.valueOf(newValue.getPhoneNumber()));
                 txtCity.setText(newValue.getCity());
             }
-        })Admin 1234;
+        });
     }
 }

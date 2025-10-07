@@ -13,7 +13,12 @@ public class DashBoardFormController {
     Stage stage = new Stage();
     @FXML
     void btnCustomerInfoOnAction(ActionEvent event) {
-
+        try {
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("/view/customer_info.fxml"))));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        stage.show();
     }
 
     @FXML
